@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/udp_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBtn"
+        android:text="UDPActivity"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/tcp_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBtn"
+        android:text="TCPActivity"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/http_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBtn"
+        android:text="HttpActivity"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/http2_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBtn"
+        android:text="Http2Activity"
+        android:textAllCaps="false" />
+</LinearLayout>

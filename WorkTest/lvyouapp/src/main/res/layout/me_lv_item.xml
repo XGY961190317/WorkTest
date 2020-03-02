@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/lv_item_img"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@mipmap/list_my_menu" />
+
+    <TextView
+        android:id="@+id/lv_item_tv"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:text="我的菜单"
+        android:layout_toRightOf="@id/lv_item_img"
+
+        android:textSize="22sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:background="#555555"
+        android:layout_toRightOf="@id/lv_item_img"
+        android:layout_below="@id/lv_item_tv"
+        android:layout_height="1dp"></View>
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/my_keep"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#7988f1"
+        android:gravity="center_vertical|right"
+        android:onClick="indexOnClick"
+        android:paddingRight="20dp"
+        android:text="我的收藏"
+        android:textColor="#ffffffff"
+        android:textSize="20sp" />
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:src="@mipmap/ic_launcher" />
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.example.myapplicationdemo.awork.myview.MyViewPager
+            android:id="@+id/dis_vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></com.example.myapplicationdemo.awork.myview.MyViewPager>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/last"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_toLeftOf="@id/keep"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:onClick="indexOnClick"
+                android:text="上一篇"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/keep"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:onClick="indexOnClick"
+                android:text="收藏"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_toRightOf="@id/keep"
+                android:background="@drawable/btn_bg"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:gravity="center"
+                android:onClick="indexOnClick"
+                android:text="下一篇"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+
+    </FrameLayout>
+</LinearLayout>

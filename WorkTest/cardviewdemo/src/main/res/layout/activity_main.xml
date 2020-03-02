@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/cardview_baseinfo"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:onClick="myOnclick"
+        android:text="CardView基本属性信息" />
+
+    <Button
+        android:id="@+id/cardview_demo"
+        android:layout_width="240dp"
+        android:onClick="myOnclick"
+        android:layout_height="wrap_content"
+        android:text="CardView应用示例" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dialog"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@mipmap/dialog_bg">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你确定要退出吗？"
+        android:textSize="36dp"
+        android:textColor="#e61414"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="220dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/yes_btn"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/yes_btn"/>
+        <Button
+            android:id="@+id/no_btn"
+            android:layout_width="120dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/no_btn"/>
+    </LinearLayout>
+
+</LinearLayout>

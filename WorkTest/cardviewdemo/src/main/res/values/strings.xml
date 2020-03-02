@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CardViewDemo</string>
+    <string name="str">
+        CardView最基本属性\n
+        app:cardBackgroundColor="设置背景颜色" \n
+        app:cardCornerRadius="设置圆角" \n
+        app:cardElevation="设置阴影"\n
+        app:cardMaxElevation="设置最大的阴影"\n
+        app:contentPadding="设置Padding"\n
+        app:contentPaddingTop="设置TopPadding"\n
+        app:contentPaddingLeft="设置LeftPadding"\n
+        app:contentPaddingRight="设置RightPadding"\n
+        app:contentPaddingBottom="设置BottomPadding"\n
+    </string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/property_view_alpha"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#98bbf1"
+        android:gravity="center"
+        android:onClick="viewAnimatorOnClick"
+        android:text="Alpha属性透明动画" />
+
+    <TextView
+        android:id="@+id/property_view_scale"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#98bbf1"
+        android:gravity="center"
+        android:onClick="viewAnimatorOnClick"
+        android:text="Scale属性缩放动画" />
+
+    <TextView
+        android:id="@+id/property_view_rotate"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#98bbf1"
+        android:gravity="center"
+        android:onClick="viewAnimatorOnClick"
+        android:text="Rotate属性旋转动画" />
+
+    <TextView
+        android:id="@+id/property_view_translate"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#98bbf1"
+        android:gravity="center"
+        android:onClick="viewAnimatorOnClick"
+        android:text="Translate属性位移动画" />
+    <TextView
+        android:id="@+id/property_view_set"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#98bbf1"
+        android:gravity="center"
+        android:onClick="viewAnimatorOnClick"
+        android:text="Set属性动画集合" />
+</LinearLayout>

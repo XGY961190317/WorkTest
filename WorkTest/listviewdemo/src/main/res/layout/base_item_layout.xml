@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!--头像，昵称，发表时间（静态），发表内容，点赞，评论，转发-->>
+
+    <ImageView
+        android:id="@+id/item_profile"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="5dp"
+        android:src="@mipmap/profile1" />
+
+    <TextView
+        android:id="@+id/item_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/item_profile"
+        android:text="用户1"
+        android:textSize="26sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/item_nickname"
+        android:layout_toRightOf="@+id/item_profile"
+        android:gravity="center_vertical"
+        android:text="2048-10-24"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/item_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_profile"
+        android:gravity="center_vertical"
+        android:text="啊，多么有意义的日子啊！"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/item_repost"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/item_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@mipmap/repost" />
+
+    <ImageView
+        android:id="@+id/item_comment"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/item_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@id/item_repost"
+        android:src="@mipmap/comment" />
+
+    <ImageView
+        android:id="@+id/item_like"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/item_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@id/item_comment"
+        android:src="@mipmap/like" />
+</RelativeLayout>

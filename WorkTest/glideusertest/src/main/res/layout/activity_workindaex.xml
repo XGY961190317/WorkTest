@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/w_base_glideBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="wGlideOnClick"
+        android:layout_marginTop="10dp"
+        android:text="Glide基础加载图片"/>
+    <Button
+        android:id="@+id/w_classOpstion_glideBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="wGlideOnClick"
+        android:layout_marginTop="10dp"
+        android:text="通过自定义类实现全局Glide加载配置"/>
+    <Button
+        android:id="@+id/w_generatedAPI_netBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="wGlideOnClick"
+        android:layout_marginTop="10dp"
+        android:text="通过GeneratedAPIGlide实现全局Glide加载配置"/>
+
+</LinearLayout>

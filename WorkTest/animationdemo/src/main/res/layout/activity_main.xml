@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/frame_Animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnOnclick"
+
+        android:text="Frame Animation帧动画" />
+
+    <Button
+        android:id="@+id/view_Animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnOnclick"
+        android:text="View Animation 补间动画" />
+    <Button
+        android:id="@+id/property_Animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnOnclick"
+        android:text="Ptoperty Animation属性动画" />
+
+</LinearLayout>

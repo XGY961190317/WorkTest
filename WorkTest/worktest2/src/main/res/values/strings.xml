@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">WorkTest</string>
+    <string name="data_dialog_btn">设置日期对话框</string>
+    <string name="single_btn">单选列表对话框</string>
+    <string name="much_dialog_btn">多选列表对话框</string>
+</resources>

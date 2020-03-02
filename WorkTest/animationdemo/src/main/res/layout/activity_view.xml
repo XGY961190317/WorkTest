@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/alpha_Animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ViewOnclick"
+        android:text="Alpha Animation" />
+
+    <Button
+        android:id="@+id/scale_Animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ViewOnclick"
+        android:text="Scale Animation" />
+
+    <Button
+        android:id="@+id/translate_Animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ViewOnclick"
+        android:text="Translate Animation" />
+
+    <Button
+        android:id="@+id/rotate_Animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ViewOnclick"
+        android:text="Rotate Animation" />
+
+    <Button
+        android:id="@+id/set_Animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ViewOnclick"
+        android:text="Set Animation" />
+</LinearLayout>

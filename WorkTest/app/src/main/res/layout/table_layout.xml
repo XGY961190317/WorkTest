@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:stretchColumns="*"><!--
+    1,android:stretchColumns =设置可以伸展的列，直接传列的索引，以“，”隔开，* 表示所有的列
+    2,android:shrinkColumns="1" 设置可以缩小的列  当随着某个空间的空间增大，空间不够使，设置这个属性的列会变小
+    3，android:collapseColumns="1"设置可隐藏的列-->
+
+    <EditText android:layout_weight="2"
+        android:text="0"
+        android:gravity="right|center_vertical"
+        android:textSize="28sp"/>
+
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:layout_height="match_parent"
+            android:text="C"
+            android:textSize="24sp" />
+        <Button
+            android:layout_height="match_parent"
+            android:text="+/-"
+            android:textSize="24sp" />
+        <Button
+            android:layout_height="match_parent"
+            android:text="%"
+            android:textSize="24sp" />
+        <Button
+            android:layout_height="match_parent"
+            android:text="÷"
+            android:textSize="24sp" />
+    </TableRow>
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:layout_height="match_parent"
+            android:text="7"
+            android:textSize="24sp" />
+        <Button
+            android:layout_height="match_parent"
+            android:text="8"
+            android:textSize="24sp" />
+        <Button
+            android:layout_height="match_parent"
+            android:text="9"
+            android:textSize="24sp" />
+        <Button
+            android:layout_height="match_parent"
+            android:text="*"
+            android:textSize="24sp" />
+    </TableRow>
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:layout_height="match_parent"
+            android:text="4"
+            android:textSize="24sp" />
+        <Button
+            android:layout_height="match_parent"
+            android:text="5"
+            android:textSize="24sp" />
+        <Button
+            android:layout_height="match_parent"
+            android:text="6"
+            android:textSize="24sp" />
+        <Button
+            android:layout_height="match_parent"
+            android:text="-"
+            android:textSize="24sp" />
+    </TableRow>
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:layout_height="match_parent"
+            android:text="1"
+            android:textSize="24sp" />
+        <Button
+            android:layout_height="match_parent"
+            android:text="2"
+            android:textSize="24sp" />
+        <Button
+            android:layout_height="match_parent"
+            android:text="3"
+            android:textSize="24sp" />
+        <Button
+            android:layout_height="match_parent"
+            android:text="+"
+            android:textSize="24sp" />
+    </TableRow>
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textSize="24sp"
+            android:layout_span="2"/>
+        <Button
+            android:layout_height="match_parent"
+            android:text="."
+            android:textSize="24sp" />
+
+        <Button
+            android:layout_height="match_parent"
+            android:text="="
+            android:textSize="24sp" />
+    </TableRow>
+
+</TableLayout>

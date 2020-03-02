@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/start_loadimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startLoadImgByNative"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="点击开始加载图片"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/native_iv_loadimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY" />
+</LinearLayout>

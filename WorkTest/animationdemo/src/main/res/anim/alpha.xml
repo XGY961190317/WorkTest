@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--duration动画时间长-->
+    <!--透明度开始，fromAlpha1.0表示全透明-->
+    <!--透明度结束，toAlpha0.1表示不透明-->
+   <alpha android:duration="1000"
+    android:fromAlpha="1.0"
+    android:toAlpha="0.1"></alpha>
+</set>

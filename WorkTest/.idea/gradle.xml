@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/aidldemo" />
+            <option value="$PROJECT_DIR$/animationdemo" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/asynctaskdemo" />
+            <option value="$PROJECT_DIR$/broadcastreceiverdemo" />
+            <option value="$PROJECT_DIR$/broadcastreceiverdemotwo" />
+            <option value="$PROJECT_DIR$/butterknife" />
+            <option value="$PROJECT_DIR$/cardviewdemo" />
+            <option value="$PROJECT_DIR$/cntentproviderdemo" />
+            <option value="$PROJECT_DIR$/contentproviderreadcontact" />
+            <option value="$PROJECT_DIR$/contentprovidersms" />
+            <option value="$PROJECT_DIR$/contentresolverdemo" />
+            <option value="$PROJECT_DIR$/ctivitylifecycle" />
+            <option value="$PROJECT_DIR$/dialogdemo" />
+            <option value="$PROJECT_DIR$/dialogwork" />
+            <option value="$PROJECT_DIR$/eventbusdemo" />
+            <option value="$PROJECT_DIR$/expandablelistviewdemo" />
+            <option value="$PROJECT_DIR$/fragmentdemo" />
+            <option value="$PROJECT_DIR$/glidedemo" />
+            <option value="$PROJECT_DIR$/glideusertest" />
+            <option value="$PROJECT_DIR$/greendaodemo" />
+            <option value="$PROJECT_DIR$/handlerdemo" />
+            <option value="$PROJECT_DIR$/listviewdemo" />
+            <option value="$PROJECT_DIR$/lvyouapp" />
+            <option value="$PROJECT_DIR$/myapplicationdemo" />
+            <option value="$PROJECT_DIR$/netgetdemo" />
+            <option value="$PROJECT_DIR$/okiodemo" />
+            <option value="$PROJECT_DIR$/recyclerviewdemo" />
+            <option value="$PROJECT_DIR$/servicedemo" />
+            <option value="$PROJECT_DIR$/socketdemo" />
+            <option value="$PROJECT_DIR$/sqlitedemo" />
+            <option value="$PROJECT_DIR$/storagedemo" />
+            <option value="$PROJECT_DIR$/transitionanimationdemo" />
+            <option value="$PROJECT_DIR$/viewpagerdemo" />
+            <option value="$PROJECT_DIR$/webviewdemo" />
+            <option value="$PROJECT_DIR$/worktest2" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

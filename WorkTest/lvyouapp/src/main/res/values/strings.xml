@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LvYouApp</string>
+    <string name="index">首页</string>
+    <string name="find">发现</string>
+    <string name="me">我的</string>
+    <string name="left_over_time">秒后,\n点击跳过</string>
+    <string name="yhq">优惠券</string>
+    <string name="gwu">购物车</string>
+    <string name="zkq">折扣券</string>
+</resources>

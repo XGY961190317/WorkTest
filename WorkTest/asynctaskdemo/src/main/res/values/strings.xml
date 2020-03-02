@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AsyncTaskDemo</string>
+    <string name="dis_result">结果显示</string>
+    <string name="download">正在下载，请稍后</string>
+    <string name="download_wait">下载中，请耐心等待下载完成</string>
+    <string name="download_finish">下载完成</string>
+    <string name="app_download_finish">应用下载完成：</string>
+    <string name="download_fiall">下载失败,点击重试</string>
+    <string name="download_fiall_reset">下载失败,请点击重试</string>
+</resources>

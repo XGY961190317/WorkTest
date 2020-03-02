@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/data_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/btn_color"
+            android:gravity="center"
+            android:onClick="myOnclick"
+            android:text="@string/data_dialog_btn" />
+
+        <Button
+            android:id="@+id/single_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/btn_color"
+            android:gravity="center"
+            android:onClick="myOnclick"
+            android:text="@string/single_btn" />
+
+        <Button
+            android:id="@+id/much_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/btn_color"
+            android:gravity="center"
+            android:onClick="myOnclick"
+            android:text="@string/much_dialog_btn" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/display_tv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="22sp"/>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/mode_psoting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickEventModeBtn"
+        android:text="Psoting模式"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/mode_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickEventModeBtn"
+        android:text="Main模式"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/mode_main_ordered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickEventModeBtn"
+        android:text="Main_oRdered模式"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/mode_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickEventModeBtn"
+        android:text="Background模式"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/mode_async"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickEventModeBtn"
+        android:text="Async模式"
+        android:textAllCaps="false" />
+
+</LinearLayout>

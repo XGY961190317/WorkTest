@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="single_dialog">
+        <item>男</item>
+        <item>女</item>
+        <item>性别未知</item>
+        <item>你猜</item>
+    </string-array>
+    <string-array name="multi_dialog">
+        <item>编程</item>
+        <item>LOL</item>
+        <item>旅游</item>
+        <item>篮球</item>
+    </string-array>
+</resources>

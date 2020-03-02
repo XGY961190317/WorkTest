@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/glide_loadimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startLoadImgByGlide"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Glide加载图片"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/glideapp_loadimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startLoadImgByGlideApp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="GlideApp加载图片"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/glide_iv_loadimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY" />
+</LinearLayout>
